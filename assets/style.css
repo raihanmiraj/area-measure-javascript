@@ -1,0 +1,95 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ 
+*{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: rgba(17, 17, 17, 0.8);
+}
+header{
+    background: rgba(16, 144, 216, 0.1);
+   padding:20px 50px;
+   border-radius: 10px;
+  
+}
+.main{
+    margin: 30px;
+}
+.input-box{
+    width: 50%;
+}
+input{
+    background: #F1F1F1!important;
+    border-radius: 4px;
+}
+.area-box{
+    border: 1px solid rgba(17, 17, 17, 0.1);
+border-radius: 8px;
+ 
+}
+.area-box>h2{
+    color: #414141;
+    font-weight: 700;
+font-size: 25px;
+}
+.area-box>p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-top: -15px;
+color: #414141;
+}
+.head>h1{
+    font-weight: 700;
+font-size: 45px;
+ 
+}
+.head>p{
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+letter-spacing: 0.05em;
+margin-top: -15px;
+}
+.area-calcualtion{
+    min-height: 300px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+}
+.btn-custom{
+    background: #1090D8;
+    border-radius: 4px;
+    color: white;
+    border-radius: 12px!important;
+}
+.btn-custom:hover{
+    background: orangered;
+
+    color: white;
+}
+.calculate-button {
+    width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        margin: 0px;
+    }
+    .input-box{
+        width: 80%;
+    }
+    .head>h1{
+        font-weight: 600;
+    font-size: 35px;
+     
+    }
+    .head>p{
+    font-weight: 200;
+    font-size: 12px;
+   
+    }
+    header{
+        padding: 10px 20px;
+       
+    }
+  }
