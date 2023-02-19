@@ -47,7 +47,7 @@ const areaOfEllipse = (a, b) => {
 }
 
 const inputValidation = (a, b) => {
-  if (a >= 0 && !isNaN(a) && !isNaN(b) && a != "" && b != "") {
+  if (a >= 0 && b >= 0  && !isNaN(a) && !isNaN(b) && a != "" && b != "") {
     return true;
   } else {
     false;
